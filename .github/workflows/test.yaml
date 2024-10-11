@@ -5,4 +5,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - run: sleep 20
       - run: echo "Hello, world!"
